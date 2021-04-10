@@ -3,8 +3,6 @@ ESP32 based accessory decoder script
 
 This script allows you to easily turn an ESP32 Dev Module into a DCC Accessory Decoder to control points/turnouts and anything else you may want your DCC controller to send commands to. The script has been tested no an NCE Powercab and DCC++EX running on an Arduino Mega2560.
 
-[ESP32AccessoryDecoder.zip](https://github.com/IOM2021/ESP32DCCAccessoryDecoder/files/6290573/ESP32AccessoryDecoder.zip)
-
 The main script contains a single function "ControlAccDecoder" as shown below that will display on the serial port any Accessory decoder commands sent through and contains a basic example switch statement to get you started.
 For those who want to delve a bit deeper the DecoderFunction file contains the processes to read the DCC Packets and could be adapted to become a loc decoder quite easily.
 
